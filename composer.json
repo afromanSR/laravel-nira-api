@@ -1,0 +1,21 @@
+{
+    "name": "afromansr/laravel-nira-api",
+    "description": "An elegant way to access the NIRA api for the Laravel framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AfromanSR\\LaravelNiraApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Samson Rwakabuguli",
+            "email": "srwakabuguli@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.23"
+    }
+}
