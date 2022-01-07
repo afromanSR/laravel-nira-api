@@ -7,6 +7,11 @@
             "AfromanSR\\LaravelNiraApi\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "AfromanSR\\LaravelNiraApi\\Tests\\": "tests/"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "authors": [
@@ -15,7 +20,17 @@
             "email": "srwakabuguli@gmail.com"
         }
     ],
+    "require": {
+        "ext-soap": "*"
+    },
     "require-dev": {
         "orchestra/testbench": "^6.23"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AfromanSR\\LaravelNiraApi\\ServiceProvider"
+            ]
+        }
     }
 }
